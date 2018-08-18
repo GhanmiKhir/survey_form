@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/GhanmiKhir/survey_form.git"
   },
-  "keywords": ["servey", "form", "shows", "freecodecamp"],
+  "keywords": [
+    "servey",
+    "form",
+    "shows",
+    "freecodecamp"
+  ],
   "author": "ghanmi khir",
   "license": "ISC",
   "bugs": {
