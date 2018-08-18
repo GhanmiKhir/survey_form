@@ -1,0 +1,133 @@
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="./CSS/index.css" />
+</head>
+
+<body>
+  <h1 id="title"> Survey form</h1>
+  <div class="content">
+    <p id="description">This is a survey for fans of TV shows</p>
+    <form id="servey-form" action="index.html" method="get">
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="name-label">Name:</label>
+        </div>
+        <div class="values">
+          <input autofocus type="text" name="Name" id="name-label" placeholder="Enter your name" required>
+        </div>
+      </div>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="email-label">Email:</label>
+        </div>
+        <div class="values">
+          <input autofocus type="email" name="email" id="email-label" placeholder="Enter your Email" required>
+        </div>
+      </div>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="age-label">Age:</label>
+        </div>
+        <div class="values">
+          <input autofocus type="number" min="1" max="130" name="age" id="age-label" placeholder="Age" required>
+        </div>
+      </div>
+
+      </br>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="episodes">Episodes watched per week:</label>
+        </div>
+        <div class="values">
+          <select id="dropdown" name="episodes">
+          <option selected disabled value>Select a range</option>
+          <option value="0-5">0-5</option>
+          <option value="5-10">5-10</option>
+          <option value="10-20">10-20</option>
+          <option value="more">More</option>
+        </select>
+        </div>
+      </div>
+
+      </br>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="platform">Platform of choice:</label>
+        </div>
+        <div class="values">
+          <input type="radio" name="Platform" value="Televison"> Televison <br>
+          <input type="radio" name="Platform" value="Computer">Computer <br>
+          <input type="radio" name="Platform" value="Smartphone">Smartphone <br>
+        </div>
+      </div>
+
+      </br>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="genre">Favorite TV-show genre:</label>
+        </div>
+        <div class="values">
+          <select id="dropdown2" name="genre">
+            <option selected disabled value>Select a genre</option>
+            <option value="action">Action</option>
+            <option value="adventure">Adventure</option>
+            <option value="comedy">Comedy</option>
+            <option value="crime">Crime</option>
+            <option value="drama">Drama</option>
+            <option value="fantasy">Fantasy</option>
+            <option value="sciencefiction">Science Fiction</option>
+            <option value="Horror">Horror</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+      </div>
+
+      </br>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="platform">Favorite TV-shows:</label>
+        </div>
+        <div class="values">
+          <input type="checkbox" name="favorite" value="GOT"> Game Of Thrones <br>
+          <input type="checkbox" name="favorite" value="ST"> Star Trek  <br>
+          <input type="checkbox" name="favorite" value="TWD"> The Walking Dead <br>
+          <input type="checkbox" name="favorite" value="SP"> South Park <br>
+          <input type="checkbox" name="favorite" value="DW"> Doctor Who <br>
+          <input type="checkbox" name="favorite" value="BB"> Breaking Bad <br>
+          <input type="checkbox" name="favorite" value="HOC"> House Of Cards <br>
+          <input type="checkbox" name="favorite" value="TS"> The Simpsons <br>
+          <input type="checkbox" name="favorite" value="RAM"> Rick And Morty <br>
+          <input type="checkbox" name="favorite" value="F"> Friends <br>
+        </div>
+      </div>
+
+      </br>
+
+      <div clas="rows">
+        <div class="labels">
+          <label for="addmore">Other favorite shows:</label>
+        </div>
+        <div class="values">
+          <textarea rows="4" cols="35" name="addmore" id="addmore" placeholder="Enter the name of your shows here...">
+          </textarea>
+        </div>
+      </div>
+
+    </br>
+      <div class="submit">
+    <button type="submit" id ="submit">Submit</button>
+  </div>
+    </form>
+  </div>
+</body>
+
+</html>
